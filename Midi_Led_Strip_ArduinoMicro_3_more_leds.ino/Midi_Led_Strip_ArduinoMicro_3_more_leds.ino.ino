@@ -1,7 +1,18 @@
-// Este codigo acende os led que estao do lado dos leds principais
+/* Este codigo acende os led que estao do lado dos leds principais
+Por Gustavo Silveira
+www.musiconerd.com
+gustavosilveira@msusiconerd.com
 
-#include "MIDIUSB.h"
-#include "FastLED.h"
+INSTRUÇOES
+Va em: sketch > include library Manage libraries... e coloque na busca e baixe as bibliotecas MIDIUSB, by Gary Grewal, e FastLED, by Daniel Garcia.
+Va em: tools > board ? Arduino/Genuino Micro
+Va em: port > escolha a porta usb em que o Arudino esta conectado. Em Mac em geral é "usb alguma coisa" e em Windows é "COM alguma coisa".
+Aperte o V no canto superior esquerdo para verificar se esta tudo certo. Se você instalou as bibliotecas corretamente você não deve ter nenhum erro.
+Do lado do V, aperte na seta para a direita para fazer o upload do codigo.
+*/
+
+#include "MIDIUSB.h" // by Gary Grewal
+#include "FastLED.h" // by Daniel Garcia
 
 FASTLED_USING_NAMESPACE
 
